@@ -16,7 +16,6 @@ module.exports = {
             {test: /\.js$/, exclude: /node_modules/, loader: "babel"},
             {test: /\.es6$/, exclude: /node_modules/, loader: "babel"},
             {test: /\.scss$/, loaders: ["style", "css", "sass"]},
-            {test: /\.html$/, loader: 'babel!template-string'},
             {test: /\.handlebars$/, loader: "handlebars"},
             {test: /\.json$/, loader: "json"}
         ]

@@ -1,7 +1,6 @@
 import './style.scss';
 import data from './data.json';
-import template from './category/category.handlebars';
+import categories from './templates/category.handlebars';
 
 const mtl = document.getElementById('mtl');
-
-mtl.innerHTML = template(data);
+mtl.innerHTML = categories(data);

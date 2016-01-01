@@ -1,0 +1,16 @@
+{{#each category}}
+    <section class="m-y-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="m-y-2"><i class="fa fa-{{icon}}"></i> {{title}}</h2>
+                    <div class="row">
+                        {{# each apps}}
+                            {{> app}}
+                        {{/ each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{/each}}
